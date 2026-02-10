@@ -12,7 +12,7 @@ A CLI tool that fetches and displays GitHub user activity using the GitHub API.
 ## Usage
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 You will be prompted to enter a GitHub username. From there, use the menu to explore:
