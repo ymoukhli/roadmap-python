@@ -1,4 +1,4 @@
-# [GitHub User Activity](https://roadmap.sh/projects/github-user-activity)
+# GitHub User Activity
 
 A CLI tool that fetches and displays GitHub user activity using the GitHub API.
 
@@ -26,3 +26,7 @@ You will be prompted to enter a GitHub username. From there, use the menu to exp
 
 - Python 3.x
 - No external dependencies (uses only `urllib` and `json` from the standard library)
+
+## project link
+
+[https://roadmap.sh/projects/github-user-activity](https://roadmap.sh/projects/github-user-activity)
