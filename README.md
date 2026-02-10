@@ -4,6 +4,6 @@ A collection of Python projects built as part of a learning [roadmap](roadmap.sh
 
 ## Projects
 
-| Project | Description |
-|---------|-------------|
-| [GitHub User Activity](GitHubUserActivity/) | CLI tool to fetch and display GitHub user activity |
+| Project | Description | project link |
+|---------|-------------|--------------|
+| [GitHub User Activity](GitHubUserActivity/) | CLI tool to fetch and display GitHub user activity | [roadmap link](https://roadmap.sh/projects/github-user-activity)
