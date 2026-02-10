@@ -7,15 +7,15 @@ def main(data, events):
         print(f"3 - events: {len(events) if events else 'N/A'}")
         print("4 - exit")
 
-def followers(data):
+def followers(data, login):
     if data is not None:
-        print(f"Followers of {data.get('login', 'N/A')}:")
+        print(f"Followers of {login}:")
         for follower in data:
             print(f"- {follower.get('login', 'N/A')}")
 
-def following(data):
+def following(data, login):
     if data is not None:
-        print(f"Following of {data.get('login', 'N/A')}:")
+        print(f"Following of {login}:")
         for follow in data:
             print(f"- {follow.get('login', 'N/A')}")
 

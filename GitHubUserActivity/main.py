@@ -64,12 +64,12 @@ if __name__ == "__main__":
                 state = "exit"
         elif state == "followers":
             followers = get_user_followers(username)
-            printable.followers(followers)
+            printable.followers(followers, username)
             input(generic_input_message)
             state = "main"
         elif state == "following":
             following = get_user_following(username)
-            printable.following(following)
+            printable.following(following, username)
             input(generic_input_message)
             state = "main"
         elif state == "events":
